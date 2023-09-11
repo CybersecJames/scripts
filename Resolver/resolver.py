@@ -1,15 +1,13 @@
 # Python Resolver
-
-
 import socket
 import platform
 import os
 
 # clear the screen
-os.system("cls")
+os.system("clear")
 
 # list of hostnames
-hostname_list = ['HCV591MDOTPDC17', 'HCV591MDOTTDC08']
+hostname_list = ['example.com', 'example2.com']
 
 # resolve hostnames to IP addresses
 print("Resolving\n-----------------------------------------------")
